@@ -1,0 +1,481 @@
+.wrapper{
+    width: 1512px;
+    height: 100px;
+    margin-top: 22PX;
+    margin-right: 100px;
+    bottom: 22px;
+    margin-left: 100px;
+    gap: 195px;
+    display: flex;
+    align-items: center;
+
+}
+#logo{
+    width: 182px;
+    height: 51px;
+    gap: 15px;
+    opacity: 0px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 182px;
+    height: 51px;
+    gap: 15px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#logo:hover {
+    transform: rotate(20deg);
+    filter: hue-rotate(180deg);
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    width: hug(530px);
+    height: Hug(42px);
+    
+    
+
+
+}
+.ul-il{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    gap: 30px;
+    color: #696969;
+}
+
+/* Style for the burger icon */
+.burger {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Make burger visible on small screens */
+@media screen and (max-width: 768px) {
+    .burger {
+        display: flex; /* Show burger on mobile */
+    }
+
+    .ul-il {
+        display: none; /* Hide the navigation links by default */
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        top: 100px; /* Adjust as needed */
+        right: 20px;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .ul-il.active {
+        display: flex; /* Show nav links when active */
+    }
+}
+.bg1{
+    width: 100%;
+    display: block;
+    position: relative;
+    height: auto;
+}
+.h1{
+    text-align: center;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 40%;
+    left: 550px;
+    
+ 
+}
+.conteiner1{ 
+    margin-top: 110px;
+    width: hug (1312px);
+    height: hug(1182px);
+    top: 1104px;
+    left: 100px;
+    gap: 75px;
+}
+.txt1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 550px;
+    color: #041562;
+    size: 50pc;
+}
+.imagebox1{
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+.imagebox2{
+    margin-top: 50px;
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 30px;
+
+}
+.conteiner2{ 
+    margin-top: 110px;
+    width: hug(1312px);
+    height: hug(710px);
+    top: 3398px;
+    left: 100px;
+    gap: 75px;
+    margin-left: 20px;
+
+}
+.txt2{margin-top: 20px;
+    margin-left: 550px;
+    color: #041562;
+}
+.imagebox3{
+    margin-top: 50px;
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 40px;
+
+}
+.conteiner3{
+    margin-top: 110px;
+    width: hug(1312px);
+    height: hug(448px);
+    top: 3398px;
+    left: 100px;
+    gap: 30px;
+    margin-left: 20px;
+}
+.txt3{
+    top: 60px;
+    margin-left: 550px;
+    color: #041562;
+}
+.imagebox4{
+    margin-top: 50px;
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 40px;
+
+}
+.footer1{
+    margin-top: 150px;
+    width: 1512px;
+    height: 454px;
+    justify-content: space-between;
+    top: 108px;
+    right: 100px;
+    bottom: 108px;
+    left: 100px;
+    background-color: #19224D;
+    display: flex;
+}
+.logo1{
+    margin-top: 100px;
+   
+    
+
+}
+.dest{
+    margin-top: 50px;
+    size: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+
+.bg2{
+    width: 1512px;
+    height: 400px;
+    top: 100px;
+    
+}
+.conteiner4{
+    width: 1312px;
+    height: hug(431px);
+    top: 660px;
+    left: 100px;
+    gap: 76px;
+    display: flex;
+}
+.logoabout{
+    margin-top: 50px;
+    width: 443px;
+    top: 20px;
+    left: 62px;
+    display: flex;
+    margin-left: 40px;
+}
+.txtabout{
+    margin-top: 50px;
+    width: hug(556px);
+    height: hug(370px);
+    gap: 25px;
+    display: flex;
+    margin-left: 40px;
+}
+.photobox1{
+    margin-top: 50px;
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.photobox2{
+    margin-top: 50px;
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+.photobox3{
+    margin-top: 50px;
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+.photobox4{
+    margin-top: 50px;
+    width: hug(1312px);
+    height: hug(415px);
+    gap: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    left: 300px;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 300px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 300px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 300px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 300px;
+  }
+
+
+  .cookie-notification {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    display: none; 
+  }
+  
+  .cookie-notification button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .cookie-notification button:hover {
+    background-color: #45a049;
+  }
+
+  .registrationForm{
+    left: 60px;
+    
+  }
+
+/* For screens with a max width of 1024px */
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .ul-il {
+        width: auto;
+        gap: 15px;
+    }
+}
+
+/* For screens with a max width of 768px */
+@media screen and (max-width: 768px) {
+    .burger {
+        display: flex; /* Show burger on mobile */
+    }
+
+    .ul-il {
+        display: none; /* Hide navigation links by default */
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .ul-il.active {
+        display: flex; /* Show nav links when active */
+    }
+}
+
+/* For screens with a max width of 480px */
+@media screen and (max-width: 480px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .ul-il {
+        width: 100%;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .NavBar {
+        flex-direction: column;
+    }
+}
+
+/* For screens with a max width of 320px */
+@media screen and (max-width: 320px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+
+    .ul-il {
+        gap: 10px;
+    }
+
+    #logo {
+        width: 120px;
+        height: 35px;
+    }
+}
+
+/* Adjusting the container sizes for responsive layout */
+.conteiner1, .conteiner2, .conteiner3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.txt1, .txt2, .txt3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagebox1, .imagebox2, .imagebox3, .imagebox4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer1 {
+    width: 100%;
+    padding: 20px;
+    background-color: #19224D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer1 img {
+    width: 100px;
+    margin: 10px;
+}
+
+.cookie-notification {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    display: none;
+}
+
+.cookie-notification button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Show the cookie notification on larger screens */
+@media screen and (min-width: 768px) {
+    .cookie-notification {
+        display: block;
+    }
+}
